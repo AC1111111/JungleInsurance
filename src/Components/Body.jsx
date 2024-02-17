@@ -21,6 +21,9 @@ class Body extends Component {
             <div>
                 <div>
                     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
                         <div class="container-fluid">
                             <div class="collapse navbar-collapse" id="navbarColor01">
                                 <ul class="navbar-nav me-auto">
@@ -28,15 +31,15 @@ class Body extends Component {
                                         <img src={logo} alt="Jungle Insurance" width={50} height={50}></img>
                                     </li>
                                     <li class="nav-item">
-                                        <Link class="nav-link" to = "/">Home
+                                        <Link class="nav-link" to="/">Home
                                         </Link>
                                     </li>
                                     <li class="nav-item">
-                                        <Link class="nav-link" to = "/faqs">FAQs
+                                        <Link class="nav-link" to="/faqs">FAQs
                                         </Link>
                                     </li>
                                     <li class="nav-item">
-                                        <Link class="nav-link" to = "/about">About
+                                        <Link class="nav-link" to="/about">About
                                         </Link>
                                     </li>
                                 </ul>

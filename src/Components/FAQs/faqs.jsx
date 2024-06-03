@@ -7,11 +7,6 @@ function faqs() {
         <h6>Maybe</h6>
         <br/><br/>
 
-        <h3><b>Q) I have a very particular set of skills and would like to put them to use for Jungle Insurance. How do I do that?</b></h3>
-        <h4>A) The job market is volatile but leave us an <a href="https://forms.gle/5nq3mHnnSw4XokJq7">application</a> and we'll get in touch if you have what we need.</h4>
-
-        <br/>
-
         <h3><b>Q) How do I earn Goliracoins?</b></h3>
         <h4>A) Great to see that you yearn for the mines.You can grind them <a href="https://discord.gg/golira">here</a>.</h4>
 

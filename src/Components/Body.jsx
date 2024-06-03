@@ -4,6 +4,7 @@ import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import About from "./About/About";
 import FAQs from "./FAQs/faqs";
+import Jobs from "./Jobs/jobs";
 import { Link, Route, Routes } from "react-router-dom";
 import logo from "../assets/3DBB0D50-1DBC-4FF5-9F95-3E9E0E770A0D.png";
 
@@ -39,6 +40,9 @@ class Body extends Component {
                                         </Link>
                                     </li>
                                     <li class="nav-item">
+                                        <Link class="nav-link" to="/jobs">Work for us</Link>
+                                    </li>
+                                    <li class="nav-item">
                                         <Link class="nav-link" to="/about">About
                                         </Link>
                                     </li>
@@ -51,6 +55,7 @@ class Body extends Component {
                     <Route path="/" element={<Home />} />
                     <Route path="/faqs" element={<FAQs />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/jobs" element={<Jobs />}/>
                 </Routes>
             </div>
         )

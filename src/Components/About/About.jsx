@@ -18,7 +18,7 @@ function About() {
       <br />
       <div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
-          <h2>Yahrim, The Ballin one</h2>
+          <h2>Yharim, The Ballin one</h2>
           <a href="https://twitter.com/YharimTheBaller">
             <img src={Yahrim} alt="Yahrim, the CEO" />
           </a>
